@@ -11,8 +11,8 @@ IPFS API wrapper in Clojure
 
 
 ;; In your ns statement:
-(ns my.ns
-  (:require [clj-ipfs-api.core :as ipfs]))
+(require '[clj-ipfs-api.core :as ipfs])
+(ipfs/setup!)
 ```
 
 ## Usage
