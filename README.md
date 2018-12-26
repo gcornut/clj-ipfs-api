@@ -5,7 +5,10 @@ IPFS API wrapper in Clojure
 
 ## Get it
 ```clojure
-[clj-ipfs-api "1.2.3"]
+;In deps.edn
+{:deps {gcornut/clj-ipfs-api {:git/url "git@github.com:gcornut/clj-ipfs-api.git"
+                              :sha "<LATEST MASTER BRANCH COMMIT SHA>"}}
+
 
 ;; In your ns statement:
 (ns my.ns
